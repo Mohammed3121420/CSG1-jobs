@@ -1,7 +1,13 @@
+using Jobs.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<JobContext>(Option => Option.UseSqlServer(
+    builder.Configuration.GetConnectionString("MyConnection")
+    ));
 
 var app = builder.Build();
 

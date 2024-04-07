@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Jobs.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Jobs.Data
 {
@@ -8,5 +9,7 @@ namespace Jobs.Data
         {
 
         }
+        public DbSet<ContactModel> Contacts { get; set; }
+
     }
 }
