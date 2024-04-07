@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\WINDOWS 11\\Source\\Repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\Jobs.csproj": {}
+    "C:\\Users\\WINDOWS 11\\source\\repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\Jobs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\WINDOWS 11\\Source\\Repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\Jobs.csproj": {
+    "C:\\Users\\WINDOWS 11\\source\\repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\Jobs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\WINDOWS 11\\Source\\Repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\Jobs.csproj",
+        "projectUniqueName": "C:\\Users\\WINDOWS 11\\source\\repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\Jobs.csproj",
         "projectName": "Jobs",
-        "projectPath": "C:\\Users\\WINDOWS 11\\Source\\Repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\Jobs.csproj",
+        "projectPath": "C:\\Users\\WINDOWS 11\\source\\repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\Jobs.csproj",
         "packagesPath": "C:\\Users\\WINDOWS 11\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\WINDOWS 11\\Source\\Repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\obj\\",
+        "outputPath": "C:\\Users\\WINDOWS 11\\source\\repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\WINDOWS 11\\AppData\\Roaming\\NuGet\\NuGet.Config",
