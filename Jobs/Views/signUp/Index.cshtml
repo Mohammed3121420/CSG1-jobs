@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model signUpModel
+<body>
+    <h1>@ViewBag.x</h1>
+    <h2>إنشاء مستخدم جديد</h2>
+    <form asp-action="Index" asp-controller="signUp" method="post">
+
+        <label asp-for="fallName">fall Name</label>
+        <input type="text" id="fallName" required>
+
+        <label asp-for="username">username</label>
+        <input type="text" id="username" required>
+
+        <label asp-for="email">Email</label>
+        <input type="text" id="email" required>
+
+        <label asp-for="phone">Phone</label>
+        <input type="text" id="phone" required>
+
+        <label asp-for="city">City</label>
+        <input type="text" id="city" required>
+
+        <label asp-for="password">Password</label>
+        <input type="password" id="password" required>
+
+        <label >Confirm Password</label>
+        <input type="password" name="confirmPassword" required>
+        
+
+        <label>
+            <input type="radio" name="typeAccount" value="Personal" checked>
+            Personal
+        </label>
+        <label>
+            <input type="radio" name="typeAccount" value="company">
+            company
+        </label>
+        
+        <input type="submit" value="إنشاء المستخدم">
+    </form>
+</body>

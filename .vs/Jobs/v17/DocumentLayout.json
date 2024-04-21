@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ali Basonbol\\source\\repos\\CSG1-jobs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{862D4935-68A5-4D5F-BD47-521AE053EA00}|Jobs\\Jobs.csproj|c:\\users\\ali basonbol\\source\\repos\\csg1-jobs\\jobs\\models\\signupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862D4935-68A5-4D5F-BD47-521AE053EA00}|Jobs\\Jobs.csproj|solutionrelative:jobs\\models\\signupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862D4935-68A5-4D5F-BD47-521AE053EA00}|Jobs\\Jobs.csproj|c:\\users\\ali basonbol\\source\\repos\\csg1-jobs\\jobs\\views\\signup\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{862D4935-68A5-4D5F-BD47-521AE053EA00}|Jobs\\Jobs.csproj|solutionrelative:jobs\\views\\signup\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862D4935-68A5-4D5F-BD47-521AE053EA00}|Jobs\\Jobs.csproj|c:\\users\\ali basonbol\\source\\repos\\csg1-jobs\\jobs\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862D4935-68A5-4D5F-BD47-521AE053EA00}|Jobs\\Jobs.csproj|solutionrelative:jobs\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862D4935-68A5-4D5F-BD47-521AE053EA00}|Jobs\\Jobs.csproj|c:\\users\\ali basonbol\\source\\repos\\csg1-jobs\\jobs\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862D4935-68A5-4D5F-BD47-521AE053EA00}|Jobs\\Jobs.csproj|solutionrelative:jobs\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "signUpModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ali Basonbol\\source\\repos\\CSG1-jobs\\Jobs\\Models\\signUpModel.cs",
+              "RelativeDocumentMoniker": "Jobs\\Models\\signUpModel.cs",
+              "ToolTip": "C:\\Users\\Ali Basonbol\\source\\repos\\CSG1-jobs\\Jobs\\Models\\signUpModel.cs",
+              "RelativeToolTip": "Jobs\\Models\\signUpModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T22:50:31.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ali Basonbol\\source\\repos\\CSG1-jobs\\Jobs\\Views\\signUp\\Index.cshtml",
+              "RelativeDocumentMoniker": "Jobs\\Views\\signUp\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ali Basonbol\\source\\repos\\CSG1-jobs\\Jobs\\Views\\signUp\\Index.cshtml",
+              "RelativeToolTip": "Jobs\\Views\\signUp\\Index.cshtml",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAIwBwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T22:30:47.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "signUpController.cs",
+              "DocumentMoniker": "C:\\Users\\Ali Basonbol\\source\\repos\\CSG1-jobs\\Jobs\\Controllers\\signUpController.cs",
+              "RelativeDocumentMoniker": "Jobs\\Controllers\\signUpController.cs",
+              "ToolTip": "C:\\Users\\Ali Basonbol\\source\\repos\\CSG1-jobs\\Jobs\\Controllers\\signUpController.cs",
+              "RelativeToolTip": "Jobs\\Controllers\\signUpController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T22:28:38.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Ali Basonbol\\source\\repos\\CSG1-jobs\\Jobs\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Jobs\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Ali Basonbol\\source\\repos\\CSG1-jobs\\Jobs\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Jobs\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAwwB8AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T22:24:17.417Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
