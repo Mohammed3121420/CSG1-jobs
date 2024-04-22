@@ -51,9 +51,9 @@ namespace Jobs.Controllers
         {
             return View();
         }
-        public IActionResult JobsDetails()
-        {
-            return View();
-        }
+        //public IActionResult JobsDetails()
+        //{
+        //    return View();
+        //}
     }
 }
