@@ -1,45 +1,28 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\Ali Basonbol\\Desktop\\New folder\\CSG1-jobs-main\\CSG1-jobs-main\\Jobs\\Jobs.csproj": {}
+    "C:\\Users\\WINDOWS 11\\source\\repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\Jobs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ali Basonbol\\Desktop\\New folder\\CSG1-jobs-main\\CSG1-jobs-main\\Jobs\\Jobs.csproj": {
+    "C:\\Users\\WINDOWS 11\\source\\repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\Jobs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ali Basonbol\\Desktop\\New folder\\CSG1-jobs-main\\CSG1-jobs-main\\Jobs\\Jobs.csproj",
+        "projectUniqueName": "C:\\Users\\WINDOWS 11\\source\\repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\Jobs.csproj",
         "projectName": "Jobs",
-        "projectPath": "C:\\Users\\Ali Basonbol\\Desktop\\New folder\\CSG1-jobs-main\\CSG1-jobs-main\\Jobs\\Jobs.csproj",
-        "packagesPath": "C:\\Users\\Ali Basonbol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ali Basonbol\\Desktop\\New folder\\CSG1-jobs-main\\CSG1-jobs-main\\Jobs\\obj\\",
-=======
-    "C:\\Users\\WINDOWS 11\\Source\\Repos\\CSG1-jobs\\Jobs\\Jobs.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\WINDOWS 11\\Source\\Repos\\CSG1-jobs\\Jobs\\Jobs.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\WINDOWS 11\\Source\\Repos\\CSG1-jobs\\Jobs\\Jobs.csproj",
-        "projectName": "Jobs",
-        "projectPath": "C:\\Users\\WINDOWS 11\\Source\\Repos\\CSG1-jobs\\Jobs\\Jobs.csproj",
+        "projectPath": "C:\\Users\\WINDOWS 11\\source\\repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\Jobs.csproj",
         "packagesPath": "C:\\Users\\WINDOWS 11\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\WINDOWS 11\\Source\\Repos\\CSG1-jobs\\Jobs\\obj\\",
->>>>>>> 365c86b0a5f26166fad589c98a67f45785a7aae1
+        "outputPath": "C:\\Users\\WINDOWS 11\\source\\repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Ali Basonbol\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\WINDOWS 11\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Users\\Ali Basonbol\\Desktop\\NuGet Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "E:\\.nuget\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,11 +35,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -97,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
