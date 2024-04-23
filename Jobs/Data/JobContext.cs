@@ -10,6 +10,6 @@ namespace Jobs.Data
 
         }
         public DbSet<ContactModel> Contacts { get; set; }
-
+        public DbSet<signUpModel> dbsignUp { get; set; }
     }
 }

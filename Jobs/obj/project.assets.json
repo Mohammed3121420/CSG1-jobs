@@ -2008,33 +2008,36 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore >= 6.0.14",
-      "Microsoft.EntityFrameworkCore.Relational >= 6.0.14",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.14",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.14"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\WINDOWS 11\\.nuget\\packages\\": {}
+    "C:\\Users\\Ali Basonbol\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WINDOWS 11\\Source\\Repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\Jobs.csproj",
+      "projectUniqueName": "C:\\Users\\Ali Basonbol\\Desktop\\New folder\\CSG1-jobs-main\\CSG1-jobs-main\\Jobs\\Jobs.csproj",
       "projectName": "Jobs",
-      "projectPath": "C:\\Users\\WINDOWS 11\\Source\\Repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\Jobs.csproj",
-      "packagesPath": "C:\\Users\\WINDOWS 11\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\WINDOWS 11\\Source\\Repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\obj\\",
+      "projectPath": "C:\\Users\\Ali Basonbol\\Desktop\\New folder\\CSG1-jobs-main\\CSG1-jobs-main\\Jobs\\Jobs.csproj",
+      "packagesPath": "C:\\Users\\Ali Basonbol\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ali Basonbol\\Desktop\\New folder\\CSG1-jobs-main\\CSG1-jobs-main\\Jobs\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\WINDOWS 11\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ali Basonbol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "E:\\.nuget\\packages": {},
+        "C:\\Users\\Ali Basonbol\\Desktop\\NuGet Packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2047,6 +2050,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2054,10 +2062,6 @@
         "targetAlias": "net6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "[6.0.14, )"
-          },
-          "Microsoft.EntityFrameworkCore.Relational": {
             "target": "Package",
             "version": "[6.0.14, )"
           },
@@ -2091,7 +2095,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
