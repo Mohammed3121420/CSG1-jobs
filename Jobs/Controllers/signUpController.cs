@@ -1,12 +1,17 @@
 ﻿using Jobs.Models;
 using Microsoft.AspNetCore.Mvc;
+<<<<<<< HEAD
 using Jobs.Data;
 using System;
+=======
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+>>>>>>> 365c86b0a5f26166fad589c98a67f45785a7aae1
 
 namespace Jobs.Controllers
 {
     public class signUpController : Controller
     {
+<<<<<<< HEAD
         private readonly JobContext _db;
 
         public signUpController(JobContext db)
@@ -82,5 +87,28 @@ namespace Jobs.Controllers
 
 
         }
+=======
+        public IActionResult Index()
+        {
+            
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Index(signUpModel model, string confirmPassword)
+        {
+            if (confirmPassword == model.password)
+            {
+                ViewBag.x = 1;
+                return View();
+            }
+            else
+            {
+                ViewBag.x = 0;
+                return View();
+            }
+
+        }
+
+>>>>>>> 365c86b0a5f26166fad589c98a67f45785a7aae1
     }
 }

@@ -2019,11 +2019,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Ali Basonbol\\Desktop\\New folder\\CSG1-jobs-main\\CSG1-jobs-main\\Jobs\\Jobs.csproj",
       "projectName": "Jobs",
       "projectPath": "C:\\Users\\Ali Basonbol\\Desktop\\New folder\\CSG1-jobs-main\\CSG1-jobs-main\\Jobs\\Jobs.csproj",
       "packagesPath": "C:\\Users\\Ali Basonbol\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Ali Basonbol\\Desktop\\New folder\\CSG1-jobs-main\\CSG1-jobs-main\\Jobs\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\WINDOWS 11\\Source\\Repos\\CSG1-jobs\\Jobs\\Jobs.csproj",
+      "projectName": "Jobs",
+      "projectPath": "C:\\Users\\WINDOWS 11\\Source\\Repos\\CSG1-jobs\\Jobs\\Jobs.csproj",
+      "packagesPath": "C:\\Users\\WINDOWS 11\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\WINDOWS 11\\Source\\Repos\\CSG1-jobs\\Jobs\\obj\\",
+>>>>>>> 365c86b0a5f26166fad589c98a67f45785a7aae1
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

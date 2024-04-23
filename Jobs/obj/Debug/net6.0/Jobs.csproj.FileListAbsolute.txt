@@ -205,6 +205,7 @@ C:\Users\WINDOWS 11\Source\Repos\CSG1-jobs\Jobs\obj\Debug\net6.0\scopedcss\proje
 C:\Users\WINDOWS 11\Source\Repos\CSG1-jobs\Jobs\obj\Debug\net6.0\Jobs.csproj.CopyComplete
 C:\Users\WINDOWS 11\Source\Repos\CSG1-jobs\Jobs\obj\Debug\net6.0\Jobs.genruntimeconfig.cache
 C:\Users\WINDOWS 11\Source\Repos\CSG1-jobs\Jobs\obj\Debug\net6.0\ref\Jobs.dll
+<<<<<<< HEAD
 C:\Users\Ali Basonbol\Desktop\TimeWork\2\CSG1-jobs-main\CSG1-jobs-main\Jobs\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Ali Basonbol\Desktop\TimeWork\2\CSG1-jobs-main\CSG1-jobs-main\Jobs\bin\Debug\net6.0\appsettings.json
 C:\Users\Ali Basonbol\Desktop\TimeWork\2\CSG1-jobs-main\CSG1-jobs-main\Jobs\bin\Debug\net6.0\Jobs.staticwebassets.runtime.json
@@ -272,3 +273,5 @@ C:\Users\Ali Basonbol\Desktop\TimeWork\2\CSG1-jobs-main\CSG1-jobs-main\Jobs\obj\
 C:\Users\Ali Basonbol\Desktop\TimeWork\2\CSG1-jobs-main\CSG1-jobs-main\Jobs\obj\Debug\net6.0\Jobs.pdb
 C:\Users\Ali Basonbol\Desktop\TimeWork\2\CSG1-jobs-main\CSG1-jobs-main\Jobs\obj\Debug\net6.0\Jobs.genruntimeconfig.cache
 C:\Users\Ali Basonbol\Desktop\TimeWork\2\CSG1-jobs-main\CSG1-jobs-main\Jobs\obj\Debug\net6.0\ref\Jobs.dll
+=======
+>>>>>>> 365c86b0a5f26166fad589c98a67f45785a7aae1

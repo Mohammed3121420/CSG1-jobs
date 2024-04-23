@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "E725ntK/Etw3elt51vaDfZ0wZMVEW0XnrSn4jdkFIE0hxcPPUJeKFCCnCRu6T7ZcFDEPVH8XhRfsnblKyiMymg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ali Basonbol\\Desktop\\New folder\\CSG1-jobs-main\\CSG1-jobs-main\\Jobs\\Jobs.csproj",
+=======
+  "dgSpecHash": "vtLGMVpfUeshWabWIhE1ApJQp4H/97zSZn8F930C/y7qZS8APOa0elUgMOBO2auVPoQRBGzL8G+RXo8XzNUJhw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\WINDOWS 11\\Source\\Repos\\CSG1-jobs\\Jobs\\Jobs.csproj",
+>>>>>>> 365c86b0a5f26166fad589c98a67f45785a7aae1
   "expectedPackageFiles": [
     "C:\\Users\\Ali Basonbol\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Ali Basonbol\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

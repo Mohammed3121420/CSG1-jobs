@@ -7,13 +7,21 @@ namespace Jobs.Models
     {
         [Key]
         public int id { get; set; }
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 365c86b0a5f26166fad589c98a67f45785a7aae1
         [Required]
         public string fallName { get; set; }
 
         [Required]
         public string username { get; set; }
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 365c86b0a5f26166fad589c98a67f45785a7aae1
         [Required]
         public string email { get; set; }
 
@@ -25,6 +33,7 @@ namespace Jobs.Models
 
         [Required]
         public string password { get; set; }
+<<<<<<< HEAD
 
         [Required]
         public string type { get; set; }
@@ -35,5 +44,12 @@ namespace Jobs.Models
 
 
 
+=======
+        
+       
+        
+        
+        
+>>>>>>> 365c86b0a5f26166fad589c98a67f45785a7aae1
     }
 }
