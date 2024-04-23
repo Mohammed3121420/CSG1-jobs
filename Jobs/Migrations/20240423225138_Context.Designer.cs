@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Jobs.Migrations
 {
     [DbContext(typeof(JobContext))]
-    [Migration("20240422183642_createTabolSignUp")]
-    partial class createTabolSignUp
+    [Migration("20240423225138_Context")]
+    partial class Context
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

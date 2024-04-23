@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Jobs"
   ],
-  "SelectedNode": "\\Jobs.sln",
+  "SelectedNode": "\\Jobs\\Models",
   "PreviewInSolutionExplorer": false
 }

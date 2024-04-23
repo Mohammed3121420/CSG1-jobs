@@ -4,7 +4,7 @@
 
 namespace Jobs.Migrations
 {
-    public partial class Contact : Migration
+    public partial class Context : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

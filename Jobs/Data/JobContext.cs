@@ -10,5 +10,6 @@ namespace Jobs.Data
 
         }
         public DbSet<ContactModel> Contacts { get; set; }
+
     }
 }

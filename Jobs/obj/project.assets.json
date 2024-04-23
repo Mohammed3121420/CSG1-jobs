@@ -2008,6 +2008,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore >= 6.0.14",
+      "Microsoft.EntityFrameworkCore.Relational >= 6.0.14",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.14",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.14"
     ]
@@ -2018,11 +2019,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WINDOWS 11\\source\\repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\Jobs.csproj",
+      "projectUniqueName": "C:\\Users\\WINDOWS 11\\Source\\Repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\Jobs.csproj",
       "projectName": "Jobs",
-      "projectPath": "C:\\Users\\WINDOWS 11\\source\\repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\Jobs.csproj",
+      "projectPath": "C:\\Users\\WINDOWS 11\\Source\\Repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\Jobs.csproj",
       "packagesPath": "C:\\Users\\WINDOWS 11\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\WINDOWS 11\\source\\repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\obj\\",
+      "outputPath": "C:\\Users\\WINDOWS 11\\Source\\Repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\WINDOWS 11\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2053,6 +2054,10 @@
         "targetAlias": "net6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[6.0.14, )"
+          },
+          "Microsoft.EntityFrameworkCore.Relational": {
             "target": "Package",
             "version": "[6.0.14, )"
           },
