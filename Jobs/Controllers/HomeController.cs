@@ -49,7 +49,8 @@ namespace Jobs.Controllers
         }
         public IActionResult FindJobs()
         {
-            return View();
+            var Ads = _db.Ad.ToList();
+            return View(Ads);
         }
     }
 }
