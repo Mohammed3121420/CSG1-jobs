@@ -10,6 +10,7 @@ namespace Jobs.Data
 
         }
         public DbSet<ContactModel> Contacts { get; set; }
+        public DbSet<CreateJob> Ad { get; set; }
 
     }
 }
