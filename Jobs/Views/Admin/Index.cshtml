@@ -1,0 +1,42 @@
+﻿@model List<CreateJob>
+@{
+    Layout = "_Layout";
+}
+<br />
+
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr class=table-active>
+                <th>Job Name</th>
+                <th>Job Description</th>
+                <th>Address</th>
+                <th>Requirements</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+        @if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+                            <tr>
+                                    <td>@item.JobName</td>
+                                    <td>@item.JobDescription</td>
+                                    <td>@item.Address</td>
+                                    <td>@item.Requirements</td>
+                                    <td>
+                                         <a class="btn btn-primary btn-sm" asp-controller="Admin" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                                         <a class="btn btn-primary btn-sm" asp-controller="Admin" asp-action="Delete" asp-route-id="@item.Id" onclick="return confirm('Are you sure?')">Delete</a>
+
+                                    </td>
+                            </tr>
+            }
+        }
+
+        </tbody>
+
+
+
+
+
+    </table>
