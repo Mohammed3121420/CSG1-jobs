@@ -4,28 +4,28 @@
 }
 <h3>@ViewData["Title"]</h3
 <hr />
-<form asp-action="Create" method="post">
+<form method="post" enctype="multipart/form-data">
      <div class="col-sm-6">
         <div class="form-group">
             <label class="form-label">Job Name</label>
-             <input class="form-control valid" name="name"asp-for="JobName" required id="JobName" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Job Name'" placeholder="Enter Job Name">
+             <input class="form-control valid" asp-for="JobName" required type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Job Name'" placeholder="Enter Job Name">
         </div>
    </div>
    <div class="col-sm-6">
         <div class="form-group">
              <label class="form-label">Job Description</label>
-             <input class="form-control valid" name="name"asp-for="JobDescription" required id="JobDescription" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Job Description'" placeholder="Enter Job Description">
+             <input class="form-control valid" asp-for="JobDescription" required type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Job Description'" placeholder="Enter Job Description">
         </div>
    </div><div class="col-sm-6">
         <div class="form-group">
               <label class="form-label">Address</label>
-              <input class="form-control valid" name="name"asp-for="Address" required id="Address" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your Address'" placeholder="Enter your Address">
+              <input class="form-control valid" asp-for="Address" required  type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your Address'" placeholder="Enter your Address">
         </div>
    </div>
         <div class="col-12">
             <div class="form-group">
                   <label class="form-label">Requirements</label>
-                  <textarea class="form-control w-100" name="name" asp-for="Requirements" required id="Requirements" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your Requirements'" placeholder=" Enter your Requirements"></textarea>
+                  <textarea class="form-control w-100"  asp-for="Requirements" required  cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your Requirements'" placeholder=" Enter your Requirements"></textarea>
              </div>
         </div>
         <div class="form-group mt-3">

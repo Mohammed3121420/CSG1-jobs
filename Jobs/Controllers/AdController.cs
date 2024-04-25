@@ -31,7 +31,7 @@ namespace Jobs.Controllers
 
                 _db.Ad.Add(create);
                 _db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("FindJobs", "Home");
             }
             else
             {
