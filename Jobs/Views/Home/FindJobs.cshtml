@@ -2,9 +2,9 @@
 @{
     Layout = "_Layout";
 }
-<hr />
-<form>
-    <a class="nav-link text-dark" asp-area="" asp-controller="Ad" asp-action="Create">Add Ad</a>
+<br />
+    <a class="btn btn-primary btn-sm" asp-area="" asp-controller="Ad" asp-action="Create">Add Ad</a>
+<br>
     <table class="table table-striped table-hover">
         <thead>
             <tr class=table-active>
@@ -15,18 +15,18 @@
             </tr>
         </thead>
         <tbody>
-            @if (Model != null)
+        @if (Model != null)
+        {
+            foreach (var item in Model)
             {
-                foreach (var item in Model)
-                {
-                  <td>@item.JobName</td>
-                  <td>@item.JobDescription</td>
-                  <td>@item.Address</td>
-                  <td>@item.Requirements</td>
-                }
+                 <tr>
+                     <td>@item.JobName</td>
+                     <td>@item.JobDescription</td>
+                     <td>@item.Address</td>
+                     <td>@item.Requirements</td>
+                 </tr>
             }
+        }
+
         </tbody>
     </table>
-</form>
-
- 

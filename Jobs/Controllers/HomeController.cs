@@ -40,7 +40,7 @@ namespace Jobs.Controllers
                 };
                 _db.Contacts.Add(contact);
                 _db.SaveChanges();
-                return RedirectToAction("Contact");
+                return RedirectToAction("index", "Home");
             }
             else
             {
@@ -49,7 +49,7 @@ namespace Jobs.Controllers
         }
         public IActionResult FindJobs()
         {
-            var Ads = _db.Ad.ToList();
+            var Ads = _db.Ad.OrderByDescending(p=>p.Id).ToList();
             return View(Ads);
         }
     }
