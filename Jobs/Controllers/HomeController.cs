@@ -15,16 +15,40 @@ namespace Jobs.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            if (datalogin.fallNamel == "")
+            {
+                return RedirectToAction("Index", "login");
+            }
+            else
+            {
+                ViewBag.fallName = datalogin.fallNamel;
+                return View();
+            }
         }
         public IActionResult About()
         {
-            return View();
+            if (datalogin.fallNamel == "")
+            {
+                return RedirectToAction("Index", "login");
+            }
+            else
+            {
+                ViewBag.fallName = datalogin.fallNamel;
+                return View();
+            }
         }
         [HttpGet]
         public IActionResult Contact()
         {
-            return View();
+            if (datalogin.fallNamel == "")
+            {
+                return RedirectToAction("Index", "login");
+            }
+            else
+            {
+                ViewBag.fallName = datalogin.fallNamel;
+                return View();
+            }
         }
         [HttpPost]
         public IActionResult Contact(ContactModel model)

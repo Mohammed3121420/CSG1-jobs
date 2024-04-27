@@ -14,7 +14,15 @@ namespace Jobs.Controllers
         [HttpGet]
         public IActionResult Create()
         {
-            return View();
+            if (datalogin.fallNamel == "")
+            {
+                return RedirectToAction("Index", "login");
+            }
+            else
+            {
+                ViewBag.fallName = datalogin.fallNamel;
+                return View();
+            }
         }
         [HttpPost]
         public IActionResult Create(CreateJob model)
