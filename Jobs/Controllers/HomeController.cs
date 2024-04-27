@@ -84,7 +84,7 @@ namespace Jobs.Controllers
 
             if (job == null)
             {
-                return RedirectToAction("Index", "Admin");
+                return RedirectToAction("Index", "Home");
             }
             var create = new CreateJob()
             {
