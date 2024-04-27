@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uE6fHh4seAYzG4bb4uqslWp90fOqPs64JzHb1sq7PMM=",
+  "Hash": "i5f5qnXyP+FNF5LFIWB+XxT9irqDBDEtr3Fb9fsq2+E=",
   "Source": "Jobs",
   "BasePath": "_content/Jobs",
   "Mode": "Default",
@@ -119,6 +119,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\fontawesome-all.min.css"
     },
     {
+      "Identity": "C:\\Users\\WINDOWS 11\\source\\repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\wwwroot\\assets\\css\\login.css",
+      "SourceId": "Jobs",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\source\\repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\wwwroot\\",
+      "BasePath": "_content/Jobs",
+      "RelativePath": "assets/css/login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\css\\login.css"
+    },
+    {
       "Identity": "C:\\Users\\WINDOWS 11\\source\\repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\wwwroot\\assets\\css\\magnific-popup.css",
       "SourceId": "Jobs",
       "SourceType": "Discovered",
@@ -202,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\css\\responsive.css"
+    },
+    {
+      "Identity": "C:\\Users\\WINDOWS 11\\source\\repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\wwwroot\\assets\\css\\signUp.css",
+      "SourceId": "Jobs",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\source\\repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\wwwroot\\",
+      "BasePath": "_content/Jobs",
+      "RelativePath": "assets/css/signUp.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\css\\signUp.css"
     },
     {
       "Identity": "C:\\Users\\WINDOWS 11\\source\\repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\wwwroot\\assets\\css\\slick.css",

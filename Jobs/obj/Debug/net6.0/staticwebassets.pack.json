@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\assets\\css\\fontawesome-all.min.css"
     },
     {
+      "Id": "C:\\Users\\WINDOWS 11\\source\\repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\wwwroot\\assets\\css\\login.css",
+      "PackagePath": "staticwebassets\\assets\\css\\login.css"
+    },
+    {
       "Id": "C:\\Users\\WINDOWS 11\\source\\repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\wwwroot\\assets\\css\\magnific-popup.css",
       "PackagePath": "staticwebassets\\assets\\css\\magnific-popup.css"
     },
@@ -39,6 +43,10 @@
     {
       "Id": "C:\\Users\\WINDOWS 11\\source\\repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\wwwroot\\assets\\css\\responsive.css",
       "PackagePath": "staticwebassets\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\WINDOWS 11\\source\\repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\wwwroot\\assets\\css\\signUp.css",
+      "PackagePath": "staticwebassets\\assets\\css\\signUp.css"
     },
     {
       "Id": "C:\\Users\\WINDOWS 11\\source\\repos\\Mohammed3121420\\CSG1-jobs\\Jobs\\wwwroot\\assets\\css\\slick.css",
