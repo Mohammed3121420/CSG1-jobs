@@ -1,5 +1,75 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model signUpModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Responsive Registration Form | CodingLab </title>
+    <link rel="stylesheet" href="~/assets/css/signUp.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Registration</div>
+        <div class="content">
+            <form asp-action="Index" asp-controller="signUp" method="post">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Full Name</span>
+                        <input type="text" placeholder="Enter your name" placeholder="Enter your fall name" id="fallName" asp-for="fallName" required>
+                    </div>
+                    <div class="input-box">
+                        <p>@ViewBag.msgUser</p>
+                        <span class="details">Username</span>
+                        <input type="text" placeholder="Enter your username" id="username" asp-for="username" required>
+                    </div>
+                    <div class="input-box">
+                        <p>@ViewBag.msgEmail</p>
+                        <span class="details">Email</span>
+                        <input type="text" placeholder="Enter your email" id="email" asp-for="email" required>
+                    </div>
+                    <div class="input-box">
+                        <p>@ViewBag.msgnumber</p>
+                        <span class="details">Phone Number</span>
+                        <input type="text" placeholder="Enter your number" id="phone" asp-for="phone" required>
+                    </div>
+                    <div class="input-box">
+                        <p>@ViewBag.msgCity</p>
+                        <span class="details">City</span>
+                        <input type="text" placeholder="City" id="city" asp-for="city" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Password</span>
+                        <input type="password" placeholder="Enter your password" id="password" asp-for="password" required>
+                    </div>
+                    <div class="input-box">
+                        <p>@ViewBag.msgPassword</p>
+                        <span class="details">Confirm Password</span>
+                        <input type="password" placeholder="Confirm your password" name="confirmPassword" required>
+                    </div>
+                </div>
+                 <div class="gender-details">
+                    <input type="radio" name="type" id="dot-1" asp-for="type" value="Personal" checked>
+                    <input type="radio" name="type" id="dot-2" asp-for="type" value="company">
+                    <span class="gender-title">Type Account</span>
+                    <div class="category">
+                        <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="gender">Personal</span>
+                        </label>
+                        <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="gender">company</span>
+                        </label>
+                    </div>
+                </div> 
+                <div class="button">
+                    <input type="submit" value="Register">
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
