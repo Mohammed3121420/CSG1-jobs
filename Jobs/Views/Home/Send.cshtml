@@ -1,0 +1,40 @@
+﻿@model CreateJob
+@{
+    ViewData["Title"] = "Edit Ad";
+}
+<h3>@ViewData["Title"]</h3
+<hr />
+<form method="post" enctype="multipart/form-data">
+     <div class="col-sm-6">
+          <div class="form-group">
+            <label class="form-label">Id</label>
+             <input class="form-control-plaitext" readonly value="@ViewData["Ad"]" required type="text" onfocus="this.placeholder = ''">
+        </div>
+        <div class="form-group">
+            <label class="form-label">Job Name</label>
+             <input class="form-control valid" asp-for="JobName" readonly required type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Job Name'" placeholder="Enter Job Name">
+        </div>
+   </div>
+   <div class="col-sm-6">
+        <div class="form-group">
+             <label class="form-label">Job Description</label>
+             <input class="form-control valid" asp-for="JobDescription" readonly required type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Job Description'" placeholder="Enter Job Description">
+        </div>
+   </div><div class="col-sm-6">
+        <div class="form-group">
+              <label class="form-label">Address</label>
+              <input class="form-control valid" asp-for="Address" readonly required  type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your Address'" placeholder="Enter your Address">
+        </div>
+   </div>
+        <div class="col-12">
+            <div class="form-group">
+                  <label class="form-label">Requirements</label>
+                  <textarea class="form-control w-100"  asp-for="Requirements" readonly required  cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your Requirements'" placeholder=" Enter your Requirements"></textarea>
+             </div>
+        </div>
+        <input class="form-control valid" type="file" />
+        <div class="form-group mt-3">
+             <button type="submit" class="button button-contactForm boxed-btn">Add</button>
+        </div>
+</form>
+

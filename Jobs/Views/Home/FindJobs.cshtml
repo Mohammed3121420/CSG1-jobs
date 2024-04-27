@@ -1,9 +1,13 @@
-﻿@model List<CreateJob>
+﻿@model List<CreateJob> 
+
 @{
     Layout = "_Layout";
 }
+
 <br />
+
     <a class="btn btn-primary btn-sm" asp-area="" asp-controller="Ad" asp-action="Create">Add Ad</a>
+
 <br>
     <table class="table table-striped table-hover">
         <thead>
@@ -19,12 +23,16 @@
         {
             foreach (var item in Model)
             {
-                 <tr>
-                     <td>@item.JobName</td>
-                     <td>@item.JobDescription</td>
-                     <td>@item.Address</td>
-                     <td>@item.Requirements</td>
-                 </tr>
+                                    <tr>
+                                            <td>@item.JobName</td>
+                                            <td>@item.JobDescription</td>
+                                            <td>@item.Address</td>
+                                            <td>@item.Requirements</td>
+
+                                            <td>
+                                               <a class="btn btn-primary btn-sm" asp-controller="Home" asp-action="Send" asp-route-id="@item.Id">Applay Naw</a>
+                                            </td>
+                                    </tr>
             }
         }
 
